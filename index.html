@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+    <title>Flex</title>
+</head>
+<body>
+
+    <main>
+        
+        <div class="topContainer">
+            <div class="logoBrand">
+                <div class="topBox">
+                    <div class="redBox">
+
+                    </div>
+                    <div class="yellowBox">
+    
+                    </div>
+                    <div class="greenBox">
+    
+                    </div>
+                </div>
+                
+                <div class="logoIcon">
+                    <i class="fas fa-check-double"></i>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="images/logo.png" alt="ReviewTool Logo">
+            </div>
+            <div class="userProfile">
+                <div class="userName">Sanjay Shimoga Gopala</div>
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </div>
+        <div class="container">
+            <div class="leftNav">
+                <ul class="nav-item">
+                    <li class="left-nav-link">
+                        <div class="linkBox">
+                            <i class="fas fa-th-large"></i> 
+                        </div>
+                          
+                    </li>
+                    <li class="left-nav-link">
+                        <div class="linkBox">
+                            <i class="fas fa-plus-square"></i>
+                        </div>
+                    </li>
+                    <li class="left-nav-link">
+                        <div class="linkBox">
+                            <i class="fas fa-bookmark"></i>
+                        </div>
+                    </li>
+                    <li class="left-nav-link">
+                        <div class="linkBox">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                    </li>
+                    <li class="left-nav-link">
+                        <div class="linkBox">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <div class="linkBox">
+                            <i class="fas fa-grin-stars"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="linkBox">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="linkBox">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mainContainer">
+                <div class="dashboard-list-header">
+                    <div class="listHeader">
+                        <div class = "list-header-name">
+                            Reviews
+                        </div>
+
+                        <div class="filterSection">
+                            
+                            <div class="dropdown">
+                                <div class="dropdown-select">
+                                    <div class="select">
+                                        Select Phase
+                                    </div>
+                                   <i class="fa fa-caret-down icon"></i>
+                                    
+                                </div>
+        
+                                <div class="dropdown-list">
+                                    <div class="dropdown-list_item">
+                                        Checking
+                                    </div>
+                                    <div class="dropdown-list_item">
+                                        Clarification
+                                    </div>
+                                    <div class="dropdown-list_item">
+                                        Rework
+                                    </div>
+                                    <div class="dropdown-list_item">
+                                        Rejected
+                                    </div>
+                                    <div class="dropdown-list_item">
+                                        Completed
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div class="dropdown-select">
+                                    <div class="select">
+                                        Role
+                                    </div>
+                                   <i class="fa fa-caret-down icon"></i>
+                                    
+                                </div>
+        
+                                <div class="dropdown-list">
+                                    <div class="dropdown-list_item">
+                                        Author
+                                    </div>
+                                    <div class="dropdown-list_item">
+                                       Reviewer
+                                    </div>
+                                    <div class="dropdown-list_item">
+                                        Moderator
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div class="dropdown-select">
+                                    <div class="select">
+                                        interface
+                                    </div>
+                                   <i class="fa fa-caret-down icon"></i>
+                                    
+                                </div>
+        
+                                <div class="dropdown-list">
+                                    <div class="dropdown-list_item">
+                                        RTC
+                                    </div>
+                                    <div class="dropdown-list_item">
+                                        DNG
+                                    </div>
+                                    <div class="dropdown-list_item">
+                                        RQM
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div class="dropdown-select">
+                                    <div class="select">
+                                        Product Line
+                                    </div>
+                                   <i class="fa fa-caret-down icon"></i>
+                                    
+                                </div>
+        
+                                <div class="dropdown-list">
+                                    <div class="dropdown-list_item">
+                                        PS-EC
+                                    </div>
+                                    <div class="dropdown-list_item">
+                                        PS-XS
+                                    </div>
+                                    <div class="dropdown-list_item">
+                                        CC-PS
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            
+
+                        </div>
+                        
+
+
+                    </div>
+
+                    
+
+
+
+
+                </div>
+                <div class="dashboardItems">
+                    <div class="card">
+                        <div class="cardSectionHeader">
+                            RTBBM12555
+
+                            <div class="checkingPhase">
+                                Checking
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="emptybar"></div>
+                            <div class="filledbar"></div>
+                          </div>
+                        <div class="reviewName">
+                            <p class="text-ellipsis">Design_review_of_module_55555555555555555555555555555555555555555555555555555</p>
+                        </div>
+
+                        <div class="generalSection">
+                            <div class="productline">
+                                PS-EC
+                            </div>
+                            <div class="interfaceName">
+                                DNG    
+                            </div>
+                        </div>
+
+                        <div class="reviewName">
+                            ReviewToolProject
+                        </div>
+
+                        <div class="footerSection">
+                            <div class="findingCount">
+                                <div class="finding-label">
+                                    Findings
+                                </div>
+                                <div class="findingCountNumber">
+                                    18
+                                </div>
+                            </div>
+                            <div class="roleContent">
+                                <div class="role-label">
+                                    Role
+                                </div>
+                                <div class="roleName">
+                                    Author
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+                        <div class="cardSectionHeader">
+                            RTBBM6666
+
+                            <div class="clarificationPhase">
+                                Clarification
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="emptybar"></div>
+                            <div class="filledbar"></div>
+                          </div>
+                        <div class="reviewName">
+                            Design_review_of_module
+                        </div>
+
+                        <div class="generalSection">
+                            <div class="productline">
+                                PS-EC
+                            </div>
+                            <div class="interfaceName">
+                                DNG    
+                            </div>
+                        </div>
+
+                        <div class="reviewName">
+                            ReviewToolProject
+                        </div>
+
+                        <div class="footerSection">
+                            <div class="findingCount">
+                                <div class="finding-label">
+                                    Findings
+                                </div>
+                                <div class="findingCountNumber">
+                                    18
+                                </div>
+                            </div>
+                            <div class="roleContent">
+                                <div class="role-label">
+                                    Role
+                                </div>
+                                <div class="roleName">
+                                    Author
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="card">
+                        <div class="cardSectionHeader">
+                            RTBBM6666
+
+                            <div class="reworkPhase">
+                                Rework
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="emptybar"></div>
+                            <div class="filledbar"></div>
+                          </div>
+                        <div class="reviewName">
+                            Design_review_of_module
+                        </div>
+
+                        <div class="generalSection">
+                            <div class="productline">
+                                PS-EC
+                            </div>
+                            <div class="interfaceName">
+                                DNG    
+                            </div>
+                        </div>
+
+                        <div class="reviewName">
+                            ReviewToolProject
+                        </div>
+
+                        <div class="footerSection">
+                            <div class="findingCount">
+                                <div class="finding-label">
+                                    Findings
+                                </div>
+                                <div class="findingCountNumber">
+                                    18
+                                </div>
+                            </div>
+                            <div class="roleContent">
+                                <div class="role-label">
+                                    Role
+                                </div>
+                                <div class="roleName">
+                                    Author
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+                        <div class="cardSectionHeader">
+                            RTBBM12555
+
+                            <div class="checkingPhase">
+                                Checking
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="emptybar"></div>
+                            <div class="filledbar"></div>
+                          </div>
+                        <div class="reviewName">
+                            Design_review_of_module
+                        </div>
+
+                        <div class="generalSection">
+                            <div class="productline">
+                                PS-EC
+                            </div>
+                            <div class="interfaceName">
+                                DNG    
+                            </div>
+                        </div>
+
+                        <div class="reviewName">
+                            ReviewToolProject
+                        </div>
+
+                        <div class="footerSection">
+                            <div class="findingCount">
+                                <div class="finding-label">
+                                    Findings
+                                </div>
+                                <div class="findingCountNumber">
+                                    18
+                                </div>
+                            </div>
+                            <div class="roleContent">
+                                <div class="role-label">
+                                    Role
+                                </div>
+                                <div class="roleName">
+                                    Author
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+                        <div class="cardSectionHeader">
+                            RTBBM12555
+
+                            <div class="reworkPhase">
+                                Checking
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="emptybar"></div>
+                            <div class="filledbar"></div>
+                          </div>
+                        <div class="reviewName">
+                            Design_review_of_module
+                        </div>
+
+                        <div class="generalSection">
+                            <div class="productline">
+                                PS-EC
+                            </div>
+                            <div class="interfaceName">
+                                DNG    
+                            </div>
+                        </div>
+
+                        <div class="reviewName">
+                            ReviewToolProject
+                        </div>
+
+                        <div class="footerSection">
+                            <div class="findingCount">
+                                <div class="finding-label">
+                                    Findings
+                                </div>
+                                <div class="findingCountNumber">
+                                    18
+                                </div>
+                            </div>
+                            <div class="roleContent">
+                                <div class="role-label">
+                                    Role
+                                </div>
+                                <div class="roleName">
+                                    Author
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+                        <div class="cardSectionHeader">
+                            RTBBM12555
+
+                            <div class="clarificationPhase">
+                                Checking
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="emptybar"></div>
+                            <div class="filledbar"></div>
+                          </div>
+                        <div class="reviewName">
+                            Design_review_of_module
+                        </div>
+
+                        <div class="generalSection">
+                            <div class="productline">
+                                PS-EC
+                            </div>
+                            <div class="interfaceName">
+                                DNG    
+                            </div>
+                        </div>
+
+                        <div class="reviewName">
+                            ReviewToolProject
+                        </div>
+
+                        <div class="footerSection">
+                            <div class="findingCount">
+                                <div class="finding-label">
+                                    Findings
+                                </div>
+                                <div class="findingCountNumber">
+                                    18
+                                </div>
+                            </div>
+                            <div class="roleContent">
+                                <div class="role-label">
+                                    Role
+                                </div>
+                                <div class="roleName">
+                                    Author
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+                        <div class="cardSectionHeader">
+                            RTBBM12555
+
+                            <div class="clarificationPhase">
+                                Checking
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="emptybar"></div>
+                            <div class="filledbar"></div>
+                          </div>
+                        <div class="reviewName">
+                            Design_review_of_module
+                        </div>
+
+                        <div class="generalSection">
+                            <div class="productline">
+                                PS-EC
+                            </div>
+                            <div class="interfaceName">
+                                DNG    
+                            </div>
+                        </div>
+
+                        <div class="reviewName">
+                            ReviewToolProject
+                        </div>
+
+                        <div class="footerSection">
+                            <div class="findingCount">
+                                <div class="finding-label">
+                                    Findings
+                                </div>
+                                <div class="findingCountNumber">
+                                    18
+                                </div>
+                            </div>
+                            <div class="roleContent">
+                                <div class="role-label">
+                                    Role
+                                </div>
+                                <div class="roleName">
+                                    Author
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="card">
+                        <div class="cardSectionHeader">
+                            RTBBM12555
+
+                            <div class="checkingPhase">
+                                Checking
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="emptybar"></div>
+                            <div class="filledbar"></div>
+                          </div>
+                        <div class="reviewName">
+                            Design_review_of_module
+                        </div>
+
+                        <div class="generalSection">
+                            <div class="productline">
+                                PS-EC
+                            </div>
+                            <div class="interfaceName">
+                                DNG    
+                            </div>
+                        </div>
+
+                        <div class="reviewName">
+                            ReviewToolProject
+                        </div>
+
+                        <div class="footerSection">
+                            <div class="findingCount">
+                                <div class="finding-label">
+                                    Findings
+                                </div>
+                                <div class="findingCountNumber">
+                                    18
+                                </div>
+                            </div>
+                            <div class="roleContent">
+                                <div class="role-label">
+                                    Role
+                                </div>
+                                <div class="roleName">
+                                    Author
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    
+    </main>
+
+
+</body>
+</html>
